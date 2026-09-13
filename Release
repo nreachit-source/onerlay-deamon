@@ -4,13 +4,13 @@ Suite: stable
 Codename: ios
 Architectures: iphoneos-arm64
 Components: main
-Description: Official Sileo repository for Onerlay Daemon & System-wide iOS Overlay
+Description: Official Sileo repository for Onerlay Daemon & System Overlay
 MD5Sum:
- 186d10c3338b2edcfd08dbcb8beb1d9f              638 Packages
- cb812929c540c3ea3f0dd362a93c02ba              431 Packages.gz
+ 3d4173dcd8892a8dedb25b951add2b53              537 Packages
+ 6ebdb7d81dd60ebe9df7367d864d3d3a              373 Packages.gz
 SHA1:
- 6b404a4a435664587ff3af071510c9ed1345cf51              638 Packages
- 81eb41c96063d2975ca6f76cb8423251bcc0f3fe              431 Packages.gz
+ e8162858cf063b94139bf33f0a3dd4a44de3f731              537 Packages
+ 56888518f5a97302ce7579e71ba26c4400b2fbda              373 Packages.gz
 SHA256:
- f65ec6ffee8dc04b7e1fbeddf53cd02169aea56c22ef213542dbe157543ff5bc              638 Packages
- 8c1ee8b303ccacff1332a239a2d9dd6dd00eeab6a09a0d8182a96f0ca609accd              431 Packages.gz
+ f3f645819717a08a0e9a1c830c77ae260a4040e1d2cd0f6d29a46e9c2967c2b4              537 Packages
+ 8504a2a064b1ed5931b9afa9ee84a61488fb7b390c26dc35f1057f143c639c42              373 Packages.gz

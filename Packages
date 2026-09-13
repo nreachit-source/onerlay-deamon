@@ -2,14 +2,14 @@ Package: com.local.onerlaydaemon
 Name: Onerlay Daemon & System Overlay
 Version: 1.0.0
 Architecture: iphoneos-arm64
-Description: System-wide floating overlay button and background daemon for iOS. Shows floating draggable button that expands into confirmation card.
-Maintainer: nreachit-source <nreachit-source@users.noreply.github.com>
-Author: nreachit-source
-Section: Tweaks
-Depends: mobilesubstrate
+Description: System-wide floating overlay button and background daemon for iOS
+Maintainer: Local Development
+Author: Local Development
+Section: Development
+Depends: firmware (>= 13.0)
 Filename: debs/com.local.onerlaydaemon_1.0.0_iphoneos-arm64.deb
-Size: 13626
-MD5sum: 39b4d4487fec28a98a72bd979cc736a5
-SHA1: be1cdda1579b8cd9207d7d71c0e0aff1443e0911
-SHA256: c2ad0c7cd0a131ac9451c56c54959bcf848567f1ac13f28651f4812041ec417c
+Size: 13920
+MD5sum: 635a7294086696688a0dc2bb86e8785f
+SHA1: ab3b6419d92108310a3e819176f1a04795e8723c
+SHA256: ee14b0c2bc6ca4b42a1ecb71e57c7a52c4e63302a273696662a4b22972ccfb4e
 

@@ -1,0 +1,21 @@
+#!/var/jb/bin/sh
+ldid -S /var/jb/usr/lib/TweakInject/onerlay_tweak.dylib 2>/dev/null
+CDH=$(ldid -h /var/jb/usr/lib/TweakInject/onerlay_tweak.dylib 2>/dev/null | grep -o 'CDHash=[0-9a-fA-F]*' | cut -d= -f2)
+if [ -n "$CDH" ]; then
+    /var/jb/basebin/jbctl trustcache add $CDH 2>/dev/null
+fi
+
+ldid -S /var/jb/usr/local/libexec/onerlaydaemon 2>/dev/null
+CDHD=$(ldid -h /var/jb/usr/local/libexec/onerlaydaemon 2>/dev/null | grep -o 'CDHash=[0-9a-fA-F]*' | cut -d= -f2)
+if [ -n "$CDHD" ]; then
+    /var/jb/basebin/jbctl trustcache add $CDHD 2>/dev/null
+fi
+
+launchctl kickstart -k system/com.local.onerlaydaemon 2>/dev/null
+
+SB_PID=$(ps -ef | grep SpringBoard.app/SpringBoard | grep -v grep | tr -s ' ' | cut -d' ' -f2)
+if [ -n "$SB_PID" ]; then
+    /var/jb/basebin/opainject $SB_PID /var/jb/usr/lib/TweakInject/onerlay_tweak.dylib 2>/dev/null
+fi
+
+exit 0
