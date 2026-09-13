@@ -1,0 +1,16 @@
+Origin: Onerlay Daemon
+Label: Onerlay Daemon
+Suite: stable
+Codename: ios
+Architectures: iphoneos-arm64
+Components: main
+Description: Official Sileo repository for Onerlay Daemon & System-wide iOS Overlay
+MD5Sum:
+ 186d10c3338b2edcfd08dbcb8beb1d9f              638 Packages
+ cb812929c540c3ea3f0dd362a93c02ba              431 Packages.gz
+SHA1:
+ 6b404a4a435664587ff3af071510c9ed1345cf51              638 Packages
+ 81eb41c96063d2975ca6f76cb8423251bcc0f3fe              431 Packages.gz
+SHA256:
+ f65ec6ffee8dc04b7e1fbeddf53cd02169aea56c22ef213542dbe157543ff5bc              638 Packages
+ 8c1ee8b303ccacff1332a239a2d9dd6dd00eeab6a09a0d8182a96f0ca609accd              431 Packages.gz

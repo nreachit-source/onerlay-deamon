@@ -1,0 +1,9 @@
+Package: com.local.onerlaydaemon
+Name: Onerlay Daemon & System Overlay
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Description: System-wide floating overlay button and background daemon for iOS
+Maintainer: nreachit-source <nreachit-source@users.noreply.github.com>
+Author: nreachit-source
+Section: Tweaks
+Depends: mobilesubstrate
